@@ -1,2 +1,2 @@
 # bookstore-app
-Bookstore application 
+Bookstore application using Node Js (Backend Development)
