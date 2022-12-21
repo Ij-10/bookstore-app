@@ -1,7 +1,11 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const config = require('./config/config')
+const dbConnect = require('./db/mongodb')
 const app = express()
+
+//mongodb connection 
+dbConnect()
 
 //middlewares
 app.use(bodyParser.json())
